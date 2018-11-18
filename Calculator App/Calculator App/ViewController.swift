@@ -34,7 +34,6 @@ class ViewController: UIViewController {
     @IBAction func buttonSix(_ sender: UIButton) {
         self.labelResultView.text = "6"
     }
-    
     @IBAction func buttonFive(_ sender: UIButton) {
         self.labelResultView.text = "5"
     }
@@ -61,31 +60,7 @@ class ViewController: UIViewController {
         self.labelResultView.text = "0"
     }
     @IBAction func buttonEqual(_ sender: UIButton) {
-        var res = 0
-        switch self.tempSymbol {
-        case "+":
-                res = self.tempValue + Int(self.labelResultView.text!)!
-            break
-            
-        case "-":
-            res = self.tempValue - Int(self.labelResultView.text!)!
-            break
-            
-        case "*":
-            res = self.tempValue * Int(self.labelResultView.text!)!
-            break
-            
-        case "/":
-            res = self.tempValue / Int(self.labelResultView.text!)!
-            break
-            
-        default:
-                
-            break
-        }
-       
-        
-        self.labelResultView.text = "\(res)"
+        self.makeResult()
     }
     @IBAction func buttonPlus(_ sender: UIButton) {
         self.tempValue = Int(self.labelResultView.text!)!
@@ -109,7 +84,33 @@ class ViewController: UIViewController {
     }
     
 
-
+    private func makeResult(){
+        if self.tempSymbol == "" {return}
+        var res = 0
+        switch self.tempSymbol {
+        case "+":
+            res = self.tempValue + Int(self.labelResultView.text!)!
+            break
+            
+        case "-":
+            res = self.tempValue - Int(self.labelResultView.text!)!
+            break
+            
+        case "*":
+            res = self.tempValue * Int(self.labelResultView.text!)!
+            break
+            
+        case "/":
+            res = self.tempValue / Int(self.labelResultView.text!)!
+            break
+            
+        default:
+            
+            break
+        }
+        
+        self.labelResultView.text = "\(res)"
+    }
  
     
 
