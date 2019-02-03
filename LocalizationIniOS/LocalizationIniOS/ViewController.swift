@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var labelLanguage: UILabel!
     
+    @IBOutlet weak var imageViewClickMe: UIImageView!
+    
+    
     @IBAction func switchChangeLanguage(_ sender: UISwitch) {
         
         var localeString:String?
@@ -48,6 +51,7 @@ class ViewController: UIViewController {
     
     func languageDidChange(){
         labelLanguage.text = NSLocalizedString("Hello", tableName: "Main", comment: "")
+        imageViewClickMe.image = UIImage(named: NSLocalizedString("clickbtn.png", comment: ""))
     }
 
 
