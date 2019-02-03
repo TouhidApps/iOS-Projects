@@ -1,8 +1,8 @@
 # iOS-Projects
 iOS Small Demo Projects
 
-1. XibExample
+1. Xib Example
 
-![alt text](https://raw.githubusercontent.com/TouhidApps/iOS-Projects/screenshots/screenshot-xib-example.png)
+![xib example screenshot](https://github.com/TouhidApps/iOS-Projects/raw/master/screenshots/screenshot-xib-example.png)
 
-        
+ 
