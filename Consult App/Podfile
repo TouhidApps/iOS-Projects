@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'Consult App' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'SDWebImage'
+  pod 'Nuke'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+
+
+  
+  
+  
+#  pod 'MaterialComponents/Buttons' #https: //github.com/material-components/material-components-ios/tree/develop/components/Buttons#installation-with-cocoapods
+
+
+
+
+  # Pods for Consult App
+#  pod 'MaterialComponents/PageControl' #https: //github.com/material-components/material-components-ios/tree/develop/components/PageControl#installation-with-cocoapods
+
+
+
+#pod 'MaterialComponents/Collections' #https: //github.com/material-components/material-components-ios/tree/develop/components/Collections
+
+#pod 'MaterialComponents/Dialogs' #https: //github.com/material-components/material-components-ios/tree/develop/components/Dialogs#installation-with-cocoapods
+
+#pod 'MaterialComponents/FeatureHighlight' #https ://github.com/material-components/material-components-ios/tree/develop/components/FeatureHighlight#installation-with-cocoapods
+
+#pod 'MaterialComponents/ActivityIndicator' #https:/ /github.com/material-components/material-components-ios/tree/develop/components/ActivityIndicator#installation-with-cocoapods
+
+
+end

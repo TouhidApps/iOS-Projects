@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0C1802D59A1E253F3FC0A9 /* Pods_FFMpeg_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F589D880F62C0418C005325B /* Pods_FFMpeg_Example.framework */; };
+		FE1E1955238A3B8900F36A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1E1954238A3B8900F36A98 /* Main.storyboard */; };
+		FE1E1957238A3F7C00F36A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1956238A3F7C00F36A98 /* ViewController.swift */; };
+		FE1E1959238A860000F36A98 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1958238A860000F36A98 /* VideoView.swift */; };
+		FE5EC8B623868C4300BF3903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5EC8B523868C4300BF3903 /* AppDelegate.swift */; };
+		FE5EC8BC23868C4600BF3903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5EC8BB23868C4600BF3903 /* Assets.xcassets */; };
+		FE5EC8BF23868C4600BF3903 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5EC8BE23868C4600BF3903 /* Preview Assets.xcassets */; };
+		FE5EC8C223868C4600BF3903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5EC8C023868C4600BF3903 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8258D7D15556F64A78840EF0 /* Pods-FFMpeg-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg-Example.release.xcconfig"; path = "Target Support Files/Pods-FFMpeg-Example/Pods-FFMpeg-Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE27C364BF16A809F2ACD7DC /* Pods-FFMpeg-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg-Example.debug.xcconfig"; path = "Target Support Files/Pods-FFMpeg-Example/Pods-FFMpeg-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F589D880F62C0418C005325B /* Pods_FFMpeg_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1E1954238A3B8900F36A98 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FE1E1956238A3F7C00F36A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE1E1958238A860000F36A98 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		FE5EC8B223868C4300BF3903 /* FFMpeg-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FFMpeg-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5EC8B523868C4300BF3903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE5EC8BB23868C4600BF3903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE5EC8BE23868C4600BF3903 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE5EC8C123868C4600BF3903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE5EC8C323868C4600BF3903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5EC8AF23868C4300BF3903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0C1802D59A1E253F3FC0A9 /* Pods_FFMpeg_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63495FD3AE7016C478062D2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE27C364BF16A809F2ACD7DC /* Pods-FFMpeg-Example.debug.xcconfig */,
+				8258D7D15556F64A78840EF0 /* Pods-FFMpeg-Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B13602B48CEB04F33B658EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F589D880F62C0418C005325B /* Pods_FFMpeg_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE5EC8A923868C4300BF3903 = {
+			isa = PBXGroup;
+			children = (
+				FE5EC8B423868C4300BF3903 /* FFMpeg-Example */,
+				FE5EC8B323868C4300BF3903 /* Products */,
+				63495FD3AE7016C478062D2A /* Pods */,
+				8B13602B48CEB04F33B658EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5EC8B323868C4300BF3903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5EC8B223868C4300BF3903 /* FFMpeg-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5EC8B423868C4300BF3903 /* FFMpeg-Example */ = {
+			isa = PBXGroup;
+			children = (
+				FE5EC8B523868C4300BF3903 /* AppDelegate.swift */,
+				FE1E1956238A3F7C00F36A98 /* ViewController.swift */,
+				FE1E1958238A860000F36A98 /* VideoView.swift */,
+				FE5EC8BB23868C4600BF3903 /* Assets.xcassets */,
+				FE1E1954238A3B8900F36A98 /* Main.storyboard */,
+				FE5EC8C023868C4600BF3903 /* LaunchScreen.storyboard */,
+				FE5EC8C323868C4600BF3903 /* Info.plist */,
+				FE5EC8BD23868C4600BF3903 /* Preview Content */,
+			);
+			path = "FFMpeg-Example";
+			sourceTree = "<group>";
+		};
+		FE5EC8BD23868C4600BF3903 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE5EC8BE23868C4600BF3903 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5EC8B123868C4300BF3903 /* FFMpeg-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5EC8C623868C4600BF3903 /* Build configuration list for PBXNativeTarget "FFMpeg-Example" */;
+			buildPhases = (
+				03BA34F6C2B6F573D7256412 /* [CP] Check Pods Manifest.lock */,
+				FE5EC8AE23868C4300BF3903 /* Sources */,
+				FE5EC8AF23868C4300BF3903 /* Frameworks */,
+				FE5EC8B023868C4300BF3903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFMpeg-Example";
+			productName = "FFMpeg-Example";
+			productReference = FE5EC8B223868C4300BF3903 /* FFMpeg-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5EC8AA23868C4300BF3903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Touhid Apps";
+				TargetAttributes = {
+					FE5EC8B123868C4300BF3903 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FE5EC8AD23868C4300BF3903 /* Build configuration list for PBXProject "FFMpeg-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE5EC8A923868C4300BF3903;
+			productRefGroup = FE5EC8B323868C4300BF3903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5EC8B123868C4300BF3903 /* FFMpeg-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5EC8B023868C4300BF3903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5EC8C223868C4600BF3903 /* LaunchScreen.storyboard in Resources */,
+				FE5EC8BF23868C4600BF3903 /* Preview Assets.xcassets in Resources */,
+				FE5EC8BC23868C4600BF3903 /* Assets.xcassets in Resources */,
+				FE1E1955238A3B8900F36A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03BA34F6C2B6F573D7256412 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFMpeg-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5EC8AE23868C4300BF3903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1E1959238A860000F36A98 /* VideoView.swift in Sources */,
+				FE1E1957238A3F7C00F36A98 /* ViewController.swift in Sources */,
+				FE5EC8B623868C4300BF3903 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE5EC8C023868C4600BF3903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5EC8C123868C4600BF3903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5EC8C423868C4600BF3903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE5EC8C523868C4600BF3903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE5EC8C723868C4600BF3903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE27C364BF16A809F2ACD7DC /* Pods-FFMpeg-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FFMpeg-Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 398YVB8PWS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FFMpeg-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touhidapps.FFMpeg-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE5EC8C823868C4600BF3903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8258D7D15556F64A78840EF0 /* Pods-FFMpeg-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FFMpeg-Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 398YVB8PWS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FFMpeg-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touhidapps.FFMpeg-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5EC8AD23868C4300BF3903 /* Build configuration list for PBXProject "FFMpeg-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5EC8C423868C4600BF3903 /* Debug */,
+				FE5EC8C523868C4600BF3903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5EC8C623868C4600BF3903 /* Build configuration list for PBXNativeTarget "FFMpeg-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5EC8C723868C4600BF3903 /* Debug */,
+				FE5EC8C823868C4600BF3903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE5EC8AA23868C4300BF3903 /* Project object */;
+}
